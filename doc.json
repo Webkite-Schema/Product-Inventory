@@ -1,0 +1,313 @@
+{
+  "facets": [
+    {
+      "name": "Name",
+      "type": "Text",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Brand",
+      "type": "Enum",
+      "metadata": {
+        "sortable": true,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Model",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Description",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Image URL",
+      "type": "Image",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Category",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true,
+        "groupable": true
+      }
+    },
+    {
+      "name": "Sub-Category",
+      "type": "Enum",
+      "metadata": {
+        "sortable": false,
+        "filterable": true
+      }
+    },
+    {
+      "name": "Price",
+      "type": "Number",
+      "metadata": {
+        "sortable": true,
+        "filterable": false
+      }
+    },
+    {
+      "name": "Availability",
+      "type": "Text",
+      "metadata": {
+        "sortable": false,
+        "filterable": false
+      }
+    }
+  ],
+  "aliases": {
+    "Hebrew": {
+      "_metadata": {
+        "display_name": "מלאי המוצר",
+        "display_language": "עברית",
+        "phrases": {
+          "Sort": "מיון",
+          "Filter": "סינון",
+          "More": "עוד",
+          "Less": "סגור",
+          "Sorry, no results": "מצטערים, אין תוצאות",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "וגם",
+          "or": "או",
+          "Details": "לפרטים"
+        }
+      },
+      "Name": "שם ושם משפחה",
+      "Brand": "חברה",
+      "Model": "דגם",
+      "Description": "תיאור",
+      "Image URL": "URL של תמונה",
+      "Category": "קטגוריה",
+      "Sub-Category": "תת-קטגוריה",
+      "Price": "מחיר",
+      "Availability": "זמינות במלאי"
+    },
+    "Chinese (Mandarin)": {
+      "_metadata": {
+        "display_name": "产品目录",
+        "display_language": "普通话",
+        "phrases": {
+          "Sort": "排序",
+          "Filter": "筛选",
+          "More": "更多",
+          "Less": "收起",
+          "Sorry, no results": "不好意思，没有结果",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "和",
+          "or": "或",
+          "Details": "细节"
+        }
+      },
+      "Name": "名字",
+      "Brand": "品牌",
+      "Model": "型号",
+      "Description": "描述",
+      "Image URL": "图片链接",
+      "Category": "类别",
+      "Sub-Category": "子分类",
+      "Price": "价格",
+      "Availability": "货存状态"
+    },
+    "Spanish": {
+      "_metadata": {
+        "display_name": "Inventario de productos",
+        "display_language": "Español",
+        "phrases": {
+          "Sort": "Ordenar",
+          "Filter": "Filtro",
+          "More": "Más",
+          "Less": "Menos",
+          "Sorry, no results": "Lo sentimos, no hay resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "y",
+          "or": "o",
+          "Details": "Detalles"
+        }
+      },
+      "Name": "Nombre",
+      "Brand": "Marca",
+      "Model": "Modelo",
+      "Description": "Descripción",
+      "Image URL": "URL de imagen",
+      "Category": "Categoría",
+      "Sub-Category": "Subcategoría",
+      "Price": "Precio",
+      "Availability": "Disponibilidad"
+    },
+    "Portuguese": {
+      "_metadata": {
+        "display_name": "Inventário de produtos",
+        "display_language": "Português",
+        "phrases": {
+          "Sort": "Tipo",
+          "Filter": "Filtro",
+          "More": "Mais",
+          "Less": "Menos",
+          "Sorry, no results": "Desculpe, não houve resultados",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "e",
+          "or": "ou",
+          "Details": "Detalhes"
+        }
+      },
+      "Name": "Nome",
+      "Brand": "Marca",
+      "Model": "Modelo",
+      "Description": "Descrição",
+      "Image URL": "URL de imagem",
+      "Category": "Categoria",
+      "Sub-Category": "Subcategoria",
+      "Price": "Preço",
+      "Availability": "Disponibilidade"
+    },
+    "French": {
+      "_metadata": {
+        "display_name": "Inventaire des produits",
+        "display_language": "Français",
+        "phrases": {
+          "Sort": "Sorte",
+          "Filter": "Filtre",
+          "More": "Plus",
+          "Less": "Moins",
+          "Sorry, no results": "Desole, zero resultats",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "et",
+          "or": "ou",
+          "Details": "Détails"
+        }
+      },
+      "Name": "Nom de famille et prenom",
+      "Brand": "Marque",
+      "Model": "Modèle",
+      "Description": "Description",
+      "Image URL": "Image URL",
+      "Category": "Catégorie",
+      "Sub-Category": "Sous-catégorie",
+      "Price": "Prix",
+      "Availability": "Disponibilité"
+    },
+    "Russian": {
+      "_metadata": {
+        "display_name": "Перечень продуктов",
+        "display_language": "Язык",
+        "phrases": {
+          "Sort": "Тип",
+          "Filter": "Фильтр",
+          "More": "Больше",
+          "Less": "Меньше",
+          "Sorry, no results": "Простите, но мы ничего не нашли",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "И",
+          "or": "или",
+          "Details": "Подробнее"
+        }
+      },
+      "Name": "Имя",
+      "Brand": "Наименование",
+      "Model": "Модель",
+      "Description": "Описание",
+      "Image URL": "URL изображения",
+      "Category": "Категория",
+      "Sub-Category": "Подкатегория",
+      "Price": "Цена",
+      "Availability": "Доступность"
+    },
+    "Indonesian": {
+      "_metadata": {
+        "display_name": "Inventaris produk",
+        "display_language": "Bahasa Indonesia",
+        "phrases": {
+          "Sort": "Jenis",
+          "Filter": "Filter",
+          "More": "Lebih",
+          "Less": "Kurang",
+          "Sorry, no results": "Maaf, tidak ada hasil",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "dan",
+          "or": "atau",
+          "Details": "Detail"
+        }
+      },
+      "Name": "Nama",
+      "Brand": "Merek",
+      "Model": "Model",
+      "Description": "Uraian",
+      "Image URL": "URL gambar",
+      "Category": "Kategori",
+      "Sub-Category": "Subkategori",
+      "Price": "Harga",
+      "Availability": "Ketersediaan"
+    },
+    "Dutch": {
+      "_metadata": {
+        "display_name": "Productvoorraad",
+        "display_language": "Nederlands",
+        "phrases": {
+          "Sort": "Sorteren",
+          "Filter": "Filter",
+          "More": "Meer",
+          "Less": "Minder",
+          "Sorry, no results": "Sorry, geen resultaten",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "en",
+          "or": "of",
+          "Details": "Details"
+        }
+      },
+      "Name": "Naam",
+      "Brand": "Merk",
+      "Model": "Model",
+      "Description": "Omschrijving",
+      "Image URL": "Afbeelding URL",
+      "Category": "Categorie",
+      "Sub-Category": "Sub-Categorie",
+      "Price": "Prijs",
+      "Availability": "Beschikbaarheid"
+    },
+    "Turkish": {
+      "_metadata": {
+        "display_name": "Ürün Kataloğu",
+        "display_language": "Türkçe",
+        "phrases": {
+          "Sort": "Sıralama",
+          "Filter": "Filtre",
+          "More": "Daha çok",
+          "Less": "Daha az",
+          "Sorry, no results": "Sonuç Bulunamadı",
+          "There are no results to display based on the selected filters. Try removing a filter to see more results.": "",
+          "and": "ve",
+          "or": "veya",
+          "Details": "Detaylar"
+        }
+      },
+      "Name": "Ad Soyad",
+      "Brand": "Marka",
+      "Model": "Model",
+      "Description": "Tanım",
+      "Image URL": "Resim Linki",
+      "Category": "Kategori",
+      "Sub-Category": "Alt Kategori",
+      "Price": "Fiyat",
+      "Availability": "Stokta Var/Yok"
+    }
+  }
+}
